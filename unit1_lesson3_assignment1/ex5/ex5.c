@@ -1,0 +1,26 @@
+/*
+ * ex.c
+ *
+ *  Created on: Jun 20, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+
+	char character;
+
+	printf("Enter a character: ");
+
+	fflush(stdout);
+	scanf("%c", &character);
+
+	printf("\nASCII value of %c = %d " ,character,character);
+
+	return 0;
+
+
+}
