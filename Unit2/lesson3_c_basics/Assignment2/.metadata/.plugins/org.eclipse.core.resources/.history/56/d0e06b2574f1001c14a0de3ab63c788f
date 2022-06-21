@@ -1,0 +1,19 @@
+/*
+ * ex3.c
+ *
+ *  Created on: Jun 21, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main()
+
+{
+
+	float a,b,c;
+
+	printf("Enter three numbers: ");
+
+}

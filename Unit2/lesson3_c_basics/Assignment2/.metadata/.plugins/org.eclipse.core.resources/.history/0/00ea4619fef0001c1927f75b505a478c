@@ -1,0 +1,18 @@
+/*
+ * ex2.c
+ *
+ *  Created on: Jun 21, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+
+	char charcter;
+
+	printf("Enter an alphabet: ");
+
+}
