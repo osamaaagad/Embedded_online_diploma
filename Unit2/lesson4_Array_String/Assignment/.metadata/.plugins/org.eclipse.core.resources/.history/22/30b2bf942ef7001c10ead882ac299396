@@ -1,0 +1,21 @@
+/*
+ * ex6.c
+ *
+ *  Created on: Jun 28, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main ()
+{
+
+	char text[100],c;
+	int sum;
+
+	printf("Enter a string: ");
+	fflush(stdout);
+	gets(text);
+
+}

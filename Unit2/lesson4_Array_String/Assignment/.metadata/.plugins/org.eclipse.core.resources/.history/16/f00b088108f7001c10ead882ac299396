@@ -1,0 +1,25 @@
+/*
+ * ex3.c
+ *
+ *  Created on: Jun 28, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+
+	float a[100][100],b[100][100];
+	int x,y,r,c;
+
+	printf("Enter rows and column of matrix: ");
+	fflush(stdout); fflush(stdin);
+	scanf("%d",x,y);
+
+	while
+
+
+
+}

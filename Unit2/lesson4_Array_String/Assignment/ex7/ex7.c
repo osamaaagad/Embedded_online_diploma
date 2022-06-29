@@ -1,0 +1,28 @@
+/*
+ * ex7.c
+ *
+ *  Created on: Jun 29, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main ()
+{
+
+	char text[100];
+	int length,i;
+
+	printf("Enter a string: ");
+	fflush(stdout);
+	gets(text);
+
+	for(i=0;text[i]!=0;i++)
+	{
+		length=i+1;
+	}
+
+	printf("\nLenght of string: %d",length);
+
+}

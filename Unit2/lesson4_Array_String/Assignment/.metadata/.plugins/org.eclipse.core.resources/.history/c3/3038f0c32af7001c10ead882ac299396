@@ -1,0 +1,32 @@
+/*
+ * ex5.c
+ *
+ *  Created on: Jun 28, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main ()
+{
+
+	int x,i,location;
+	float a[10],num;
+
+	printf("Enter no of elements: ");
+	fflush(stdout);
+	scanf("%d",&x);
+
+	printf("Enter elements of the array: \n");
+	fflush(stdout);
+
+	for(i=0;i<x;i++)
+	{
+		scanf("%f",&a[i]);
+
+	}
+
+	printf("\nEnter the element to be inserted: ");
+	fflush(stdout);
+	scanf("%f",&num);

@@ -1,0 +1,42 @@
+/*
+ * ex1.c
+ *
+ *  Created on: Jun 28, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+
+	float matrix_1[2][2], matrix_2[2][2];
+	int r,c;
+
+	printf("Enter the elements of 1st matrix :-\n");
+
+	for (r=0;r<2;r++)
+	{
+		for (c=0;c<2;c++)
+
+			printf("Enter a%d%d: \n",r+1,c+1);
+            fflush(stdout); fflush(stdin);
+            scanf("%f", &matrix_1[r][c]);
+	}
+
+
+	printf("Enter the elements of 2st matrix :-\n");
+
+		for (r=0;r<2;r++)
+		{
+			for (c=0;c<2;c++)
+
+				printf("Enter b%d%d: \n",r+1,c+1);
+	            fflush(stdout); fflush(stdin);
+	            scanf("%f", &matrix_2[r][c]);
+		}
+
+	return 0;
+
+}

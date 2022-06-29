@@ -1,0 +1,20 @@
+/*
+ * ex2.c
+ *
+ *  Created on: Jun 28, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+
+	float a[x],i;
+
+	printf("Enter the number of data: %x",x);
+
+
+
+}

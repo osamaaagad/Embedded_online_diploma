@@ -1,0 +1,778 @@
+16:56:19 **** Rebuild of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:14:25: warning: unused variable 'matrix_2' [-Wunused-variable]
+  float matrix_1 [2][2], matrix_2 [2][2];
+                         ^~~~~~~~
+..\ex1.c:14:8: warning: unused variable 'matrix_1' [-Wunused-variable]
+  float matrix_1 [2][2], matrix_2 [2][2];
+        ^~~~~~~~
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+16:57:12 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:14:25: warning: unused variable 'matrix_2' [-Wunused-variable]
+  float matrix_1 [2][2], matrix_2 [2][2];
+                         ^~~~~~~~
+..\ex1.c:14:8: warning: unused variable 'matrix_1' [-Wunused-variable]
+  float matrix_1 [2][2], matrix_2 [2][2];
+        ^~~~~~~~
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+16:57:25 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:14:25: warning: unused variable 'matrix_2' [-Wunused-variable]
+  float matrix_1 [2][2], matrix_2 [2][2];
+                         ^~~~~~~~
+..\ex1.c:14:8: warning: unused variable 'matrix_1' [-Wunused-variable]
+  float matrix_1 [2][2], matrix_2 [2][2];
+        ^~~~~~~~
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+16:57:58 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:14:25: warning: unused variable 'matrix_2' [-Wunused-variable]
+  float matrix_1 [2][2], matrix_2 [2][2];
+                         ^~~~~~~~
+..\ex1.c:14:8: warning: unused variable 'matrix_1' [-Wunused-variable]
+  float matrix_1 [2][2], matrix_2 [2][2];
+        ^~~~~~~~
+gcc -o ex1.exe ex1.o 
+17:05:24 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:27:2: error: break statement not within loop or switch
+  break;
+  ^~~~~
+17:05:26 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:27:2: error: break statement not within loop or switch
+  break;
+  ^~~~~
+17:05:51 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+17:09:01 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o ex1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:09:32 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:09:40 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+17:12:16 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o ex1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:12:19 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:13:05 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+17:14:51 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o ex1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:15:22 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+17:16:56 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o ex1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:17:07 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+17:17:51 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:14:24: warning: unused variable 'matrix_2' [-Wunused-variable]
+  float matrix_1[2][2], matrix_2[2][2];
+                        ^~~~~~~~
+gcc -o ex1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:18:00 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+17:18:47 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o ex1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:19:03 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+17:22:24 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:25:17: error: 'matrix_1' undeclared (first use in this function)
+    scanf("%f", &matrix_1[r][c]);
+                 ^~~~~~~~
+..\ex1.c:25:17: note: each undeclared identifier is reported only once for each function it appears in
+..\ex1.c:37:17: error: 'matrix_2' undeclared (first use in this function)
+    scanf("%f", &matrix_2[r][c]);
+                 ^~~~~~~~
+..\ex1.c:14:24: warning: unused variable 'sum_of_matrixs' [-Wunused-variable]
+  float a[2][2],b[2][2],sum_of_matrixs[2][2];
+                        ^~~~~~~~~~~~~~
+..\ex1.c:14:16: warning: unused variable 'b' [-Wunused-variable]
+  float a[2][2],b[2][2],sum_of_matrixs[2][2];
+                ^
+..\ex1.c:14:8: warning: unused variable 'a' [-Wunused-variable]
+  float a[2][2],b[2][2],sum_of_matrixs[2][2];
+        ^
+17:22:43 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:14:24: warning: unused variable 'sum_of_matrixs' [-Wunused-variable]
+  float a[2][2],b[2][2],sum_of_matrixs[2][2];
+                        ^~~~~~~~~~~~~~
+gcc -o ex1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:22:55 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+17:28:13 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:14:24: warning: unused variable 'sum_of_matrixs' [-Wunused-variable]
+  float a[2][2],b[2][2],sum_of_matrixs[2][2];
+                        ^~~~~~~~~~~~~~
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+17:30:22 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:14:24: warning: unused variable 'sum_of_matrixs' [-Wunused-variable]
+  float a[2][2],b[2][2],sum_of_matrixs[2][2];
+                        ^~~~~~~~~~~~~~
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+17:30:52 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:14:24: warning: unused variable 'sum_of_matrixs' [-Wunused-variable]
+  float a[2][2],b[2][2],sum_of_matrixs[2][2];
+                        ^~~~~~~~~~~~~~
+gcc -o ex1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:30:54 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:31:01 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:31:12 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+17:31:40 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:14:24: warning: unused variable 'sum_of_matrixs' [-Wunused-variable]
+  float a[2][2],b[2][2],sum_of_matrixs[2][2];
+                        ^~~~~~~~~~~~~~
+gcc -o ex1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:31:50 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+17:35:31 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:56:1: error: expected declaration or statement at end of input
+ }
+ ^
+17:35:57 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o ex1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:36:05 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+17:38:52 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+17:40:07 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+17:41:37 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:58:3: error: expected ';' before 'for'
+   for (c=0;c<2;c++)
+   ^~~
+..\ex1.c:14:24: warning: variable 'sum_of_matrixs' set but not used [-Wunused-but-set-variable]
+  float a[2][2],b[2][2],sum_of_matrixs[2][2];
+                        ^~~~~~~~~~~~~~
+17:41:55 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o ex1.exe ex1.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+18:34:33 **** Rebuild of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o ex2.exe ex2.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+18:36:09 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o ex2.exe ex2.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+18:38:25 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o ex2.exe ex2.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+18:40:53 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o ex2.exe ex2.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+19:34:07 **** Rebuild of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:19:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%d",&x,&y);
+        ^~~~
+..\ex3.c:26:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("%d",&x,&y);
+         ^~~~
+..\ex3.c:33:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("%d",&x,&y);
+         ^~~~
+..\ex3.c:47:3: error: expected ';' before '}' token
+   }
+   ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+19:34:34 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:19:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%d",&x,&y);
+        ^~~~
+..\ex3.c:26:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("%d",&x,&y);
+         ^~~~
+..\ex3.c:33:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("%d",&x,&y);
+         ^~~~
+gcc -o ex3.exe ex3.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+19:37:43 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o ex3.exe ex3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+19:39:18 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o ex3.exe ex3.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+19:39:32 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -o ex3.exe ex3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+19:43:40 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o ex3.exe ex3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+19:47:18 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o ex3.exe ex3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+20:16:42 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o ex2.exe ex2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex3
+20:16:48 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -o ex2.exe ex2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:17:22 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -o ex2.exe ex2.o 
+20:19:44 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o ex2.exe ex2.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+20:30:09 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o ex3.exe ex3.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+20:30:33 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -o ex3.exe ex3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+20:31:41 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o ex3.exe ex3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+20:32:56 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o ex3.exe ex3.o 
+Info: Nothing to build for ex3
+20:36:20 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o ex3.exe ex3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+20:42:54 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o ex3.exe ex3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+20:44:51 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o ex3.exe ex3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+20:49:54 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:21:2: warning: implicit declaration of function 'calculate_average' [-Wimplicit-function-declaration]
+  calculate_average(x);
+  ^~~~~~~~~~~~~~~~~
+..\ex2.c:15:8: warning: unused variable 'i' [-Wunused-variable]
+  int x,i;
+        ^
+..\ex2.c: At top level:
+..\ex2.c:27:6: warning: conflicting types for 'calculate_average'
+ void calculate_average (int size){
+      ^~~~~~~~~~~~~~~~~
+..\ex2.c:21:2: note: previous implicit declaration of 'calculate_average' was here
+  calculate_average(x);
+  ^~~~~~~~~~~~~~~~~
+gcc -o ex2.exe ex2.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+20:51:12 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o ex2.exe ex2.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+21:39:45 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o ex2.exe ex2.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+21:41:11 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o ex2.exe ex2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+21:41:25 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -o ex2.exe ex2.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+21:45:55 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o ex3.exe ex3.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:46:07 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -o ex3.exe ex3.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+23:21:10 **** Rebuild of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o ex4.exe ex4.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+23:23:15 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o ex4.exe ex4.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+23:23:31 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe ex4.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+23:25:49 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o ex4.exe ex4.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+23:26:48 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o ex4.exe ex4.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+23:39:25 **** Rebuild of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o ex5.exe ex5.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+23:41:14 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o ex5.exe ex5.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+00:06:44 **** Rebuild of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex6.o "..\\ex6.c" 
+gcc -o ex6.exe ex6.o 
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+10:44:15 **** Rebuild of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex7.o "..\\ex7.c" 
+gcc -o ex7.exe ex7.o 
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+10:45:10 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex7.o "..\\ex7.c" 
+gcc -o ex7.exe ex7.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+10:45:24 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -o ex7.exe ex7.o 
+Info: Nothing to build for ex7
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+10:59:49 **** Rebuild of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex8.o "..\\ex8.c" 
+..\ex8.c: In function 'main':
+..\ex8.c:22:8: error: array subscript is not an integer
+  strlen[text]-=1;
+        ^
+..\ex8.c:24:14: error: array subscript is not an integer
+  for(i=strlen[text];text[i]!=0;i--)
+              ^
+..\ex8.c:26:33: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   printf("\nReverse string is: %c",text);
+                                 ^
+..\ex8.c:16:6: warning: unused variable 'length' [-Wunused-variable]
+  int length,i;
+      ^~~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+11:01:17 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex8.o "..\\ex8.c" 
+..\ex8.c: In function 'main':
+..\ex8.c:22:15: error: array subscript is not an integer
+  length=strlen[text]-1;
+               ^
+..\ex8.c:26:33: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   printf("\nReverse string is: %c",text);
+                                 ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+11:03:18 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex8.o "..\\ex8.c" 
+..\ex8.c: In function 'main':
+..\ex8.c:22:8: error: array subscript is not an integer
+  strlen[text]=x;
+        ^
+..\ex8.c:27:33: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   printf("\nReverse string is: %c",text);
+                                 ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+11:03:38 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex8.o "..\\ex8.c" 
+..\ex8.c: In function 'main':
+..\ex8.c:22:8: error: array subscript is not an integer
+  strlen[text]=x;
+        ^
+..\ex8.c:27:33: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   printf("\nReverse string is: %c",text);
+                                 ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+11:06:06 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex8.o "..\\ex8.c" 
+gcc -o ex8.exe ex8.o 
+Info: Nothing to build for ex7
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for ex7
+11:07:58 **** Building Selected Files of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex8.o "..\\ex8.c" 
+Info: Nothing to build for ex7
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+11:08:14 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex8.o "..\\ex8.c" 
+gcc -o ex8.exe ex8.o 
+Info: Nothing to build for ex8
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+11:09:21 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex8.o "..\\ex8.c" 
+gcc -o ex8.exe ex8.o 
+Info: Nothing to build for ex8
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+11:11:56 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex8.o "..\\ex8.c" 
+..\ex8.c: In function 'main':
+..\ex8.c:22:37: warning: 'i' is used uninitialized in this function [-Wuninitialized]
+  printf("Reverse string is: %c",text[i]);
+                                 ~~~~^~~
+gcc -o ex8.exe ex8.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+11:12:16 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex8.o "..\\ex8.c" 
+gcc -o ex8.exe ex8.o 
+Info: Nothing to build for ex8

@@ -1,0 +1,37 @@
+/*
+ * ex2.c
+ *
+ *  Created on: Jun 28, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+
+	float a[100],Average,sum=0.0;
+	int x,i;
+
+	printf("Enter the number of data: ");
+	fflush(stdout); fflush(stdin);
+	scanf("%d",&x);
+
+	for(i=0;i<x;i++)
+	{
+		printf("Enter (%d) number: ",i+1);
+		fflush(stdout); fflush(stdin);
+		scanf("%f",&a[x]);
+		sum+=a[i];
+
+	}
+
+	Average=sum/x;
+
+	printf("Average= %.2f", Average);
+
+	return 0;
+
+
+}

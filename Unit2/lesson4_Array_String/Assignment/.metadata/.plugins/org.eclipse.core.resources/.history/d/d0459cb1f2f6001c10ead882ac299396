@@ -1,0 +1,29 @@
+/*
+ * ex1.c
+ *
+ *  Created on: Jun 28, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+
+	float matrix_1 [2][2], matrix_2 [2][2];
+	int r,c;
+
+	printf("Enter the elements of 1st matrix :-");
+
+	for (r=1;r<3;r++)
+	{
+		for (c=1;c<3;c++)
+
+			printf("Enter a%d%d: \n",r,c);
+
+	}
+
+	return 0;
+
+}

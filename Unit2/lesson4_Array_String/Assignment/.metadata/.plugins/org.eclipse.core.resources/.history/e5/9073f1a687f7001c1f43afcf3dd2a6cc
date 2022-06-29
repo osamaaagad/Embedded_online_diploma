@@ -1,0 +1,22 @@
+/*
+ * ex7.c
+ *
+ *  Created on: Jun 29, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main ()
+{
+
+	char text[100];
+	int x,i;
+
+	printf("Enter a string: ");
+	gets(text);
+
+
+
+}
