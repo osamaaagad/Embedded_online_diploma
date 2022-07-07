@@ -1,0 +1,37 @@
+/*
+ * ex1.c
+ *
+ *  Created on: Jul 5, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+
+int primenum(int i,int j)
+{
+	int k;
+	for(k=0;k>i&&k>j;k++)
+	{
+		k++;
+	}
+	return k;
+}
+
+int main ()
+{
+
+	int x,y;
+
+	printf("Enter two numbers(intervals): ");
+	fflush(stdout); fflush(stdin);
+	scanf("%d%d",&x,&y);
+
+	printf("Prime numbers between %d and %d are: %d\t",x,y,primenum(x,y));
+
+	return 0;
+
+
+
+}

@@ -1,0 +1,20 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 5, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+
+int main()
+{
+	int b,p;
+
+	printf("Enter bas number: ");
+	fflush(stdout);
+	scanf("%d",&b);
+
+}

@@ -1,0 +1,975 @@
+12:34:10 **** Rebuild of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'primenum':
+..\main.c:15:11: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+  for(k=0;i<k<j;k++)
+          ~^~
+gcc -o ex1.exe main.o 
+12:34:42 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'primenum':
+..\main.c:15:11: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+  for(k=0;i<k<j;k++)
+          ~^~
+gcc -o ex1.exe main.o 
+12:35:16 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'primenum':
+..\main.c:15:11: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+  for(k=0;i<k>j;k++)
+          ~^~
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+12:36:58 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'primenum':
+..\main.c:15:11: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+  for(k=0;i<k>j;k++)
+          ~^~
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+12:44:21 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+12:45:05 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+12:48:22 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+12:49:14 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+12:57:05 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+12:58:04 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+13:00:07 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+13:04:19 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+13:09:19 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+13:10:30 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+13:12:03 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+13:24:30 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'primenum':
+..\main.c:18:3: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   if (k=+j)
+   ^~
+..\main.c: In function 'main':
+..\main.c:31:10: warning: unused variable 'z' [-Wunused-variable]
+  int x,y,z;
+          ^
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+13:26:12 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+13:30:48 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+13:31:19 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+13:32:26 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+13:34:57 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+13:36:22 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+13:36:53 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+13:37:22 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+14:00:06 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:21:16: error: 'x' undeclared (first use in this function)
+  scanf("%d%d",&x,&y);
+                ^
+..\main.c:21:16: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:21:19: error: 'y' undeclared (first use in this function)
+  scanf("%d%d",&x,&y);
+                   ^
+..\main.c:25:6: error: redeclaration of 'k' with no linkage
+  int k;
+      ^
+..\main.c:17:10: note: previous declaration of 'k' was here
+  int i,j,k;
+          ^
+14:00:08 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:21:16: error: 'x' undeclared (first use in this function)
+  scanf("%d%d",&x,&y);
+                ^
+..\main.c:21:16: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:21:19: error: 'y' undeclared (first use in this function)
+  scanf("%d%d",&x,&y);
+                   ^
+..\main.c:25:6: error: redeclaration of 'k' with no linkage
+  int k;
+      ^
+..\main.c:17:10: note: previous declaration of 'k' was here
+  int i,j,k;
+          ^
+14:01:25 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+14:20:05 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+14:29:06 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:20:16: error: lvalue required as left operand of assignment
+    if(n2=n1||n2=1)
+                ^
+14:31:39 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+14:46:10 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+14:46:39 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:37:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main ()
+     ^~~~
+..\main.c:62:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+..\main.c:37:5: warning: 'main' defined but not used [-Wunused-function]
+ int main ()
+     ^~~~
+14:47:20 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:37:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main ()
+     ^~~~
+..\main.c:62:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+..\main.c:37:5: warning: 'main' defined but not used [-Wunused-function]
+ int main ()
+     ^~~~
+14:47:22 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:37:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main ()
+     ^~~~
+..\main.c:62:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+..\main.c:37:5: warning: 'main' defined but not used [-Wunused-function]
+ int main ()
+     ^~~~
+14:48:30 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:19:53 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+15:34:03 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:37:01 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:40:43 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:41:29 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:47:10 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+16:04:50 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:14:9: warning: unused variable 'output' [-Wunused-variable]
+  int n2,output;
+         ^~~~~~
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:05:02 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:05:30 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:05:36 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:05:44 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+16:11:06 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+16:11:29 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+16:16:02 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+16:18:24 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:25:3: error: expected ';' before '}' token
+   }
+   ^
+16:18:27 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:25:3: error: expected ';' before '}' token
+   }
+   ^
+16:18:38 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:25:3: error: expected ';' before '}' token
+   }
+   ^
+16:18:41 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:25:3: error: expected ';' before '}' token
+   }
+   ^
+16:18:52 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:25:3: error: expected ';' before '}' token
+   }
+   ^
+16:18:53 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:25:3: error: expected ';' before '}' token
+   }
+   ^
+16:18:55 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:25:3: error: expected ';' before '}' token
+   }
+   ^
+16:18:56 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:25:3: error: expected ';' before '}' token
+   }
+   ^
+16:19:24 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:25:3: error: expected ';' before '}' token
+   }
+   ^
+16:19:36 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:25:3: error: expected ';' before '}' token
+   }
+   ^
+16:19:37 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:25:3: error: expected ';' before '}' token
+   }
+   ^
+16:19:39 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check_prime':
+..\main.c:25:3: error: expected ';' before '}' token
+   }
+   ^
+16:24:42 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+16:30:21 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+16:57:15 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+17:00:45 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+17:38:28 **** Rebuild of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:17:2: error: expected ';' before 'fflush'
+  fflush(stdout);
+  ^~~~~~
+..\main.c:23:3: error: expected ';' before 'fflush'
+   fflush(stdout);
+   ^~~~~~
+..\main.c:27:9: warning: statement with no effect [-Wunused-value]
+  for(num>1;num--)
+      ~~~^~
+..\main.c:27:17: error: expected ';' before ')' token
+  for(num>1;num--)
+                 ^
+..\main.c:30:2: error: expected ';' before '}' token
+  }
+  ^
+Info: Nothing to build for ex1
+17:39:33 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:17:2: error: expected ';' before 'fflush'
+  fflush(stdout);
+  ^~~~~~
+..\main.c:23:3: error: expected ';' before 'fflush'
+   fflush(stdout);
+   ^~~~~~
+..\main.c:27:9: warning: statement with no effect [-Wunused-value]
+  for(num>1;num--;)
+      ~~~^~
+Info: Nothing to build for ex1
+17:40:37 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:17:2: error: expected ';' before 'fflush'
+  fflush(stdout);
+  ^~~~~~
+..\main.c:23:3: error: expected ';' before 'fflush'
+   fflush(stdout);
+   ^~~~~~
+..\main.c:27:9: warning: statement with no effect [-Wunused-value]
+  for(num>1;num--;)
+      ~~~^~
+Info: Nothing to build for ex1
+17:40:41 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:9: warning: statement with no effect [-Wunused-value]
+  for(num>1;num--;)
+      ~~~^~
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+17:44:47 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:9: warning: statement with no effect [-Wunused-value]
+  for(num>1;num--;)
+      ~~~^~
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+17:46:31 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:9: warning: statement with no effect [-Wunused-value]
+  for(num>2;num--;)
+      ~~~^~
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+17:47:48 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:20: error: expected ')' before ';' token
+  for(i=1;i>=num;i++;)
+                    ^
+Info: Nothing to build for ex1
+17:48:46 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex1
+17:49:34 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:9: warning: statement with no effect [-Wunused-value]
+  for(num>2;num--)
+      ~~~^~
+..\main.c:27:17: error: expected ';' before ')' token
+  for(num>2;num--)
+                 ^
+..\main.c:14:12: warning: unused variable 'i' [-Wunused-variable]
+  int num,f,i;
+            ^
+Info: Nothing to build for ex1
+17:49:47 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:9: warning: statement with no effect [-Wunused-value]
+  for(num>2;num--)
+      ~~~^~
+..\main.c:27:17: error: expected ';' before ')' token
+  for(num>2;num--)
+                 ^
+..\main.c:14:12: warning: unused variable 'i' [-Wunused-variable]
+  int num,f,i;
+            ^
+Info: Nothing to build for ex1
+17:49:49 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:9: warning: statement with no effect [-Wunused-value]
+  for(num>2;num--)
+      ~~~^~
+..\main.c:27:17: error: expected ';' before ')' token
+  for(num>2;num--)
+                 ^
+Info: Nothing to build for ex1
+17:50:07 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:9: warning: statement with no effect [-Wunused-value]
+  for(num>2;num--;)
+      ~~~^~
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+17:51:09 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+17:51:46 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+17:52:38 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:9: warning: statement with no effect [-Wunused-value]
+  for(num>1;num--;)
+      ~~~^~
+..\main.c:14:14: warning: unused variable 'i' [-Wunused-variable]
+  int num,f=1,i;
+              ^
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+17:53:04 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+18:11:47 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+18:13:23 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:42:42: error: 'f' undeclared (first use in this function)
+  printf("Factorial of %d = %d",num,func1(f));
+                                          ^
+..\main.c:42:42: note: each undeclared identifier is reported only once for each function it appears in
+18:13:27 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:42:42: error: 'f' undeclared (first use in this function)
+  printf("Factorial of %d = %d",num,func1(f));
+                                          ^
+..\main.c:42:42: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for ex1
+18:13:56 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:42:36: error: 'f' undeclared (first use in this function)
+  printf("Factorial of %d = %d",num,f);
+                                    ^
+..\main.c:42:36: note: each undeclared identifier is reported only once for each function it appears in
+18:13:59 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:42:36: error: 'f' undeclared (first use in this function)
+  printf("Factorial of %d = %d",num,f);
+                                    ^
+..\main.c:42:36: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for ex1
+18:15:11 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'func1':
+..\main.c:21:32: error: 'num' undeclared (first use in this function)
+  printf("Factorial of %d = %d",num,f);
+                                ^~~
+..\main.c:21:32: note: each undeclared identifier is reported only once for each function it appears in
+18:15:13 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'func1':
+..\main.c:21:32: error: 'num' undeclared (first use in this function)
+  printf("Factorial of %d = %d",num,f);
+                                ^~~
+..\main.c:21:32: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for ex1
+18:15:45 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+18:22:11 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:24:1: error: expected identifier or '(' before 'return'
+ return f;
+ ^~~~~~
+..\main.c: In function 'main':
+..\main.c:43:32: error: 'i' undeclared (first use in this function)
+  printf("Factorial of %d = %d",i,func1(num));
+                                ^
+..\main.c:43:32: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:43:2: error: invalid use of void expression
+  printf("Factorial of %d = %d",i,func1(num));
+  ^~~~~~
+Info: Nothing to build for ex1
+18:22:35 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'func1':
+..\main.c:22:9: warning: 'return' with a value, in function returning void
+  return f;
+         ^
+..\main.c:11:6: note: declared here
+ void func1(int i)
+      ^~~~~
+..\main.c: In function 'main':
+..\main.c:43:32: error: 'i' undeclared (first use in this function)
+  printf("Factorial of %d = %d",i,func1(num));
+                                ^
+..\main.c:43:32: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:43:2: error: invalid use of void expression
+  printf("Factorial of %d = %d",i,func1(num));
+  ^~~~~~
+Info: Nothing to build for ex1
+18:22:51 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:45:32: error: 'i' undeclared (first use in this function)
+  printf("Factorial of %d = %d",i,func1(num));
+                                ^
+..\main.c:45:32: note: each undeclared identifier is reported only once for each function it appears in
+18:22:53 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:45:32: error: 'i' undeclared (first use in this function)
+  printf("Factorial of %d = %d",i,func1(num));
+                                ^
+..\main.c:45:32: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for ex1
+18:23:29 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+18:24:23 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+18:24:50 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+18:27:21 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+18:32:06 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'func1':
+..\main.c:20:3: error: too few arguments to function 'func1'
+   func1(i);
+   ^~~~~
+..\main.c:11:5: note: declared here
+ int func1(int i,int f)
+     ^~~~~
+Info: Nothing to build for ex1
+18:32:23 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+18:35:08 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+18:37:00 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:46:2: error: 'factorial' undeclared (first use in this function)
+  factorial=func1(num,f);
+  ^~~~~~~~~
+..\main.c:46:2: note: each undeclared identifier is reported only once for each function it appears in
+18:37:02 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:46:2: error: 'factorial' undeclared (first use in this function)
+  factorial=func1(num,f);
+  ^~~~~~~~~
+..\main.c:46:2: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for ex1
+18:37:22 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:37:32 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -o ex2.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+18:37:41 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+18:39:19 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'func1':
+..\main.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+18:40:35 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+19:27:36 **** Rebuild of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:36:4: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  j=strlen(sen)-1;
+    ^~~~~~
+..\main.c:36:4: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:36:4: note: include '<string.h>' or provide a declaration of 'strlen'
+..\main.c:29:8: warning: variable 'j' set but not used [-Wunused-but-set-variable]
+  int i,j;
+        ^
+..\main.c:29:6: warning: unused variable 'i' [-Wunused-variable]
+  int i,j;
+      ^
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+19:28:05 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:36:4: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  j=strlen(sen)-1;
+    ^~~~~~
+..\main.c:36:4: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:36:4: note: include '<string.h>' or provide a declaration of 'strlen'
+..\main.c:29:6: warning: variable 'j' set but not used [-Wunused-but-set-variable]
+  int j;
+      ^
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+19:29:37 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:36:4: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  j=strlen(sen)-1;
+    ^~~~~~
+..\main.c:36:4: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:36:4: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+19:29:49 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:36:4: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  j=strlen(sen)-1;
+    ^~~~~~
+..\main.c:36:4: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:36:4: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+19:30:12 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+19:32:24 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+19:33:11 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+19:33:40 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+20:17:18 **** Rebuild of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:36:20: error: 'x' undeclared (first use in this function)
+  printf("%d",func1(x,y,z));
+                    ^
+..\main.c:36:20: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:36:22: error: 'y' undeclared (first use in this function)
+  printf("%d",func1(x,y,z));
+                      ^
+..\main.c:36:24: error: 'z' undeclared (first use in this function)
+  printf("%d",func1(x,y,z));
+                        ^
+..\main.c:25:10: warning: unused variable 'p' [-Wunused-variable]
+  int b,n,p=1;
+          ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+20:18:18 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+20:19:46 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex3

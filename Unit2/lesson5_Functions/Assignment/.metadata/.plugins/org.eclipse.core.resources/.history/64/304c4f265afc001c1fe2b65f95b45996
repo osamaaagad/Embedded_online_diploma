@@ -1,0 +1,39 @@
+/*
+ * ex1.c
+ *
+ *  Created on: Jul 5, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+
+
+
+int main ()
+{
+
+	int i,j,k;
+
+	printf("Enter two numbers(intervals): ");
+	fflush(stdout); fflush(stdin);
+	scanf("%d%d",&x,&y);
+
+	printf("Prime numbers between %d and %d are: ",x,y);
+
+	int k;
+		for(k=i+1;k<j;k++)
+		{
+			printf("%d ",k);
+				fflush(stdout);
+
+		}
+
+
+
+	return 0;
+
+
+
+}

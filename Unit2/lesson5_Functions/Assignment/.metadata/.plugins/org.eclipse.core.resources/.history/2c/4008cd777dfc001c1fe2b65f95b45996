@@ -1,0 +1,44 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 5, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int func1(int i)
+{
+
+	int f=1;
+	f*=i;
+	i--;
+
+	if(i>=1){
+		func1(i);
+	}
+	 return f;
+}
+
+int main()
+{
+
+	int num;
+
+	printf("Enter an positive integer: ");
+	fflush(stdout);
+	scanf("%d",&num);
+
+	if (num<=0)
+	{
+		printf("It is not an positive num.\nPlease re_enter an positive integer: ");
+		fflush(stdout);
+		scanf("%d",&num);
+	}
+
+
+
+	printf("Factorial of %d = %d",num,func1(f));
+
+}

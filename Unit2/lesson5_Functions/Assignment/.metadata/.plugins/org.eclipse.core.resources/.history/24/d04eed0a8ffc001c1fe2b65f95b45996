@@ -1,0 +1,38 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 5, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int func1(int x,int y, int z)
+{
+
+	z*=x;
+	y--;
+	if(y>0)
+	{
+		return func1(x,y,z);
+	}
+	return z;
+}
+
+int main()
+{
+	int b,n,p=1;
+
+	printf("Enter bas number: ");
+	fflush(stdout);
+	scanf("%d",&b);
+
+	printf("Enter power number(positive integer): ");
+	fflush(stdout);
+	scanf("%d",&n);
+
+
+	printf("%d",func1(b,n,p));
+
+}
