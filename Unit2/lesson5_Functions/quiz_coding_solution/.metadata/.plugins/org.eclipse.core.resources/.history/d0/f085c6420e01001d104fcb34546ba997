@@ -1,0 +1,38 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 11, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+
+	int num,i,j;
+
+	printf("Enter an integer: ");
+	fflush(stdout);
+	scanf("%d",&num);
+
+
+	for (i=31;i>=0;i--)
+
+	{
+
+		j=num>>i;
+
+		if (j&1)
+		{
+			printf("1");
+		}
+
+		else
+		{
+			printf("0");
+		}
+	}
+
+}

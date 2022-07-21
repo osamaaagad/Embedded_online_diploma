@@ -1,0 +1,73 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 11, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+
+int getbit(int n, int x)
+{
+	int y;
+
+	y=n>>(x-1);
+
+	if (y&1)
+	{
+		printf("\nthe bit no.(%d) is: 1",x);
+		fflush(stdout);
+	}
+
+	else
+	{
+		printf("\nthe bit no.(%d) is: 0",x);
+		fflush(stdout);
+	}
+
+	return 0;
+}
+
+
+int main()
+{
+
+	int num,i,j,bit_position;
+
+	printf("Enter an integer: ");
+	fflush(stdout);
+	scanf("%d",&num);
+
+
+	printf("\nthe integer in binary: ");
+	fflush(stdout);
+
+	for (i=31;i>=0;i--)
+
+	{
+
+		j=num>>i;
+
+		if (j&1)
+		{
+			printf("1");
+		}
+
+		else
+		{
+			printf("0");
+		}
+	}
+
+	printf("\n\nEnter a bit position that u want to get: ");
+	fflush(stdout);
+	scanf("%d",&bit_position);
+
+
+	getbit(num,bit_position);
+
+	return 0;
+
+}

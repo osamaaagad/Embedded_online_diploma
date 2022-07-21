@@ -1,0 +1,28 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 17, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+
+int main()
+{
+
+	char num[10];
+	int a;
+
+	printf("Enter an ASCI decimal number: ");
+	fflush(stdout);
+	gets(num);
+
+	a=atoi(num);
+
+	printf("the ASCI decimal number converted to unsigned integer = %d",a);
+
+	return 0;
+
+}

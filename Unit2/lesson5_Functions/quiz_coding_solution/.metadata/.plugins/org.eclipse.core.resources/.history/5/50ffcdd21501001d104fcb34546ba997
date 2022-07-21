@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 11, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+	int num1,num2;
+
+	printf("Enter an integer to check the power of another num: ");
+		fflush(stdout);
+		scanf("%d",&num1);
+
+		printf("Enter an integer: ");
+				fflush(stdout);
+				scanf("%d",&num2);
+
+}
