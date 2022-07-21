@@ -1,0 +1,32 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 20, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int sum_numbers(int num, int sum)
+{
+
+	sum+=num;
+	num--;
+
+
+	if(num!=1){
+
+		return sum_numbers(num,sum);
+	}
+
+	return 0;
+}
+
+int main()
+{
+	int k=0,i=100;
+
+	printf("%d",sum_numbers(i,k));
+	return 0;
+}

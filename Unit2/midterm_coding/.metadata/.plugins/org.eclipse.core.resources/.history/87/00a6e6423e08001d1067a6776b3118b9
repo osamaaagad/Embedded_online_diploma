@@ -1,0 +1,42 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 20, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+void count_of_ones(int num)
+{
+	int i,j,count=0;
+
+	printf("\nthe count of ones in binary of number: ");
+	for (i=31;i>=0;i--)
+
+	{
+
+		j=num>>i;
+
+		if (j&1)
+		{
+			count++;
+		}
+	}
+	printf("%d",count);
+}
+
+int main()
+	{
+
+		int num;
+
+		printf("Enter a number: ");
+		fflush(stdout);
+		scanf("%d",&num);
+
+		count_of_ones(num);
+
+		return 0;
+	}

@@ -1,0 +1,37 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 20, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int sum_numbers(int x,int y)
+{
+
+
+
+	if(x<5){
+		x++;
+		y+=x;
+
+	}
+	sum_numbers(x,y);
+
+return y;
+
+}
+
+int main()
+{
+	int i=0,sum=0,k;
+
+	k=sum_numbers(i,sum);
+
+	printf("the sum of numbers from 1 to 100 = %d",k);
+
+
+	return 0;
+}

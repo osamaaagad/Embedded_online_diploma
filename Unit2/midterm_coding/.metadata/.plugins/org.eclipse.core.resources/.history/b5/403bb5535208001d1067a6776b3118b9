@@ -1,0 +1,24 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 20, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+
+	int a[100],size,i;
+
+	printf("Enter size of array : ");
+	fflush(stdout);
+	scanf("%d",&size);
+
+
+
+
+
+}

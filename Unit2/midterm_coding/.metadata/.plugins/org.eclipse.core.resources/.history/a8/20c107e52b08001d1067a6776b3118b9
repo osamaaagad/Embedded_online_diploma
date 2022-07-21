@@ -1,0 +1,37 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 20, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+void func(char num[])
+{
+
+	int sum=0,i;
+
+	for(i=0;num[i]!=0;i++)
+	{
+		sum+=num[i];
+	}
+
+	printf("the sum of all digits= %d",sum)
+}
+
+
+int main()
+{
+
+	char num[];
+
+	printf("Enter a number: "); fflush(stdout);
+	gets(num);
+
+	func(num);
+
+
+
+}

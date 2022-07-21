@@ -1,0 +1,61 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 20, 2022
+ *      Author: osama
+ */
+
+
+
+#include <stdio.h>
+#include <string.h>
+
+void reverse(char str[],int l)
+{
+	int i,j,count=0,k=1;
+	char str2[100];
+
+	printf("Reversed name: ");
+
+
+	for (j=0,i=l-1;j<l&&i>=0;j++,i--)
+	{
+
+		str2[j]=str[i];
+
+	}
+
+	for (i=(k-1);str2[i]!=' ';i++)
+	{
+		count++;
+		k=count;
+		for (i=(count-1);i>=(k-1);i--)
+		{
+			printf("%c",str2[i]);
+		}
+	}
+
+
+
+
+
+
+}
+
+int main()
+{
+
+	char str[100];
+	int length;
+
+
+	printf("Enter a name: "); fflush(stdout);
+	gets(str);
+
+	length= strlen(str);
+
+	reverse(str,length);
+
+	return 0;
+
+}

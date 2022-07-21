@@ -1,0 +1,42 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 20, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+void check_unique(int a[],int size)
+{
+	int i,k=0;
+	for (i=0;i<size;i++)
+	{
+		k^=a[i];
+	}
+
+	printf("Unique number is : %d",k);
+
+}
+
+
+int main()
+{
+
+	int a[100],size,i;
+
+	printf("Enter size of array : ");
+	fflush(stdout);
+	scanf("%d",&size);
+
+	printf("Enter elements of array : "); fflush(stdout);
+
+	for (i=0;i<size;i++)
+	{
+		scanf("%d\t",&a[i]);
+	}
+
+	check_unique(a,size);
+
+}
