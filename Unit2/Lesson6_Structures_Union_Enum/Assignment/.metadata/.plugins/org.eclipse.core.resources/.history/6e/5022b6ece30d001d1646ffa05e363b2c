@@ -1,0 +1,26 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 27, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+struct sdata {
+
+	char name[50];
+	int roll;
+	int marks;
+
+
+};
+
+
+int main()
+{
+
+
+
+}

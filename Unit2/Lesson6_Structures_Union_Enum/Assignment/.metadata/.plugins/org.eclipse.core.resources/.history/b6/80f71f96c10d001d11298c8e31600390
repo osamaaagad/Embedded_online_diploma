@@ -1,0 +1,37 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 27, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+#include <string.h>
+
+struct SStudent {
+
+	char name[50];
+	int roll;
+	int marks;
+
+};
+
+
+int main()
+{
+
+	struct SStudent x;
+	char student_name[50];
+	int r,m;
+
+	printf("Enter information of students: \n");
+
+	printf("Enter name: "); fflush(stdout);
+	gets(student_name);
+
+	strcpy(x.name,student_name);
+
+
+
+}

@@ -1,0 +1,44 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 27, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+struct sdata {
+
+	int feet;
+	float inch;
+
+};
+
+struct sdata sum(struct sdata d1, struct sdata d2)
+{
+
+	struct sdata sum;
+
+	sum.feet=d1.feet+d2.feet;
+	sum.inch=d1.inch+d2.inch;
+
+	if(sum.inch>=12.0)
+	{
+		sum.inch-=12.0;
+		sum.feet++;
+	}
+
+	printf("sum of distance= %d\'-%0.1f\"",sum.feet,sum.inch);
+
+}
+
+int main()
+{
+
+	struct sdata d1,d2;
+
+
+
+
+}
