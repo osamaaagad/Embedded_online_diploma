@@ -1,0 +1,673 @@
+15:43:08 **** Rebuild of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:18:26: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of m : %x",&m);
+                          ^
+..\main.c:14:10: warning: unused variable 'ab' [-Wunused-variable]
+  int m, *ab;
+          ^~
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:44:36 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:26: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of m : %x",&m);
+                          ^
+..\main.c:15:7: warning: unused variable 'ab' [-Wunused-variable]
+  int* ab;
+       ^~
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:45:32 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:15:7: warning: unused variable 'ab' [-Wunused-variable]
+  int* ab;
+       ^~
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:48:04 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:51:23 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+16:08:55 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex1.exe main.o 
+16:08:56 **** Rebuild of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:15:8: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  for(*p='A';*p<='z';p++){
+      ~~^~~~
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+16:10:53 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:17:2: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+ p=&x;
+  ^
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+16:14:46 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:13:8: warning: unused variable 'p' [-Wunused-variable]
+  char* p;
+        ^
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+16:15:06 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:13:8: warning: unused variable 'p' [-Wunused-variable]
+  char* p;
+        ^
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+16:16:42 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:7: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  for(p=&x;*p<='z';p++){
+       ^
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+16:17:52 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:7: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  for(p=&x;*p<='Z';p++){
+       ^
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+16:28:57 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+16:35:27 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+16:37:48 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:13:7: warning: unused variable 'a' [-Wunused-variable]
+  char a[27];
+       ^
+..\main.c:18:3: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+ *p='A';
+ ~~^~~~
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex1
+16:38:14 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:18:3: error: lvalue required as unary '&' operand
+ p=&'A';
+   ^
+..\main.c:13:7: warning: unused variable 'a' [-Wunused-variable]
+  char a[27];
+       ^
+Info: Nothing to build for ex1
+16:40:51 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex1
+16:43:15 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+16:44:30 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+16:44:49 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+16:48:42 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+16:50:21 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:18:2: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+ p=&a;
+  ^
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex1
+16:51:03 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:18:7: error: lvalue required as left operand of assignment
+ (int)p=&a;
+       ^
+Info: Nothing to build for ex1
+16:51:31 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:18:2: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+ p=&a;
+  ^
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+16:52:55 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+16:58:17 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+17:03:16 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+17:59:51 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex2.exe main.o 
+17:59:52 **** Rebuild of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:2: warning: implicit declaration of function 'prinf' [-Wimplicit-function-declaration]
+  prinf("Input a string: "); fflush(stdout);
+  ^~~~~
+gcc -o ex3.exe main.o 
+main.o: In function `main':
+E:\courses\embedded course\lectures\unit2\lesson8_C_Pointers\Àssignment\ex3\Debug/../main.c:19: undefined reference to `prinf'
+E:\courses\embedded course\lectures\unit2\lesson8_C_Pointers\Àssignment\ex3\Debug/../main.c:21: undefined reference to `prinf'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+18:00:21 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:31:20 **** Rebuild of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:33:10 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:34:27 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+18:34:58 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:36:05 **** Rebuild of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:26: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct employee arr[3]={&a,&b,&c};
+                          ^
+..\main.c:24:26: note: (near initialization for 'arr[0].name[0]')
+..\main.c:24:29: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct employee arr[3]={&a,&b,&c};
+                             ^
+..\main.c:24:29: note: (near initialization for 'arr[0].name[1]')
+..\main.c:24:32: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct employee arr[3]={&a,&b,&c};
+                                ^
+..\main.c:24:32: note: (near initialization for 'arr[0].name[2]')
+..\main.c:24:25: warning: missing braces around initializer [-Wmissing-braces]
+  struct employee arr[3]={&a,&b,&c};
+                         ^
+..\main.c:24:25: note: (near initialization for 'arr')
+..\main.c:26:20: error: invalid initializer
+  struct employee p=&arr ;
+                    ^
+..\main.c:28:30: error: invalid type argument of unary '*' (have 'struct employee')
+  printf("Employee Name: %s",(*p+1)->name);
+                              ^~
+..\main.c:29:28: error: invalid type argument of unary '*' (have 'struct employee')
+  printf("Employee id: %d",(*p+1)->id);
+                            ^~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:37:02 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:26: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct employee arr[3]={&a,&b,&c};
+                          ^
+..\main.c:24:26: note: (near initialization for 'arr[0].name[0]')
+..\main.c:24:29: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct employee arr[3]={&a,&b,&c};
+                             ^
+..\main.c:24:29: note: (near initialization for 'arr[0].name[1]')
+..\main.c:24:32: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct employee arr[3]={&a,&b,&c};
+                                ^
+..\main.c:24:32: note: (near initialization for 'arr[0].name[2]')
+..\main.c:24:25: warning: missing braces around initializer [-Wmissing-braces]
+  struct employee arr[3]={&a,&b,&c};
+                         ^
+..\main.c:24:25: note: (near initialization for 'arr')
+..\main.c:26:21: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct employee *p=&arr ;
+                     ^
+..\main.c:28:32: error: invalid operands to binary + (have 'struct employee' and 'int')
+  printf("Employee Name: %s",(*p+1)->name);
+                              ~~^
+..\main.c:29:30: error: invalid operands to binary + (have 'struct employee' and 'int')
+  printf("Employee id: %d",(*p+1)->id);
+                            ~~^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:37:28 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:26:21: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct employee *p=&arr ;
+                     ^
+..\main.c:28:32: error: invalid operands to binary + (have 'struct employee' and 'int')
+  printf("Employee Name: %s",(*p+1)->name);
+                              ~~^
+..\main.c:29:30: error: invalid operands to binary + (have 'struct employee' and 'int')
+  printf("Employee id: %d",(*p+1)->id);
+                            ~~^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:38:10 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:26:24: error: invalid initializer
+  struct employee *p[3]=&arr ;
+                        ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:39:00 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:26:26: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct employee (*p)[3]=&arr ;
+                          ^
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:39:31 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:28:35: error: '*((struct employee **)p + 4u)' is a pointer; did you mean to use '->'?
+  printf("Employee Name: %s",(*p+1)->name);
+                                   ^~
+                                   ->
+..\main.c:29:33: error: '*((struct employee **)p + 4u)' is a pointer; did you mean to use '->'?
+  printf("Employee id: %d",(*p+1)->id);
+                                 ^~
+                                 ->
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:41:21 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:28:36: error: '*((struct employee **)p + 4u)' is a pointer; did you mean to use '->'?
+  printf("Employee Name: %s",*(*p+1)->name);
+                                    ^~
+                                    ->
+..\main.c:29:34: error: '*((struct employee **)p + 4u)' is a pointer; did you mean to use '->'?
+  printf("Employee id: %d",*(*p+1)->id);
+                                  ^~
+                                  ->
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:42:07 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:28:38: error: '*((struct employee **)p + 4u)' is a pointer; did you mean to use '->'?
+  printf("Employee Name: %s", **(*p+1)->name);
+                                      ^~
+                                      ->
+..\main.c:29:36: error: '*((struct employee **)p + 4u)' is a pointer; did you mean to use '->'?
+  printf("Employee id: %d", **(*p+1)->id);
+                                    ^~
+                                    ->
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:42:24 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:28:38: error: '*((struct employee **)p + 4u)' is a pointer; did you mean to use '->'?
+  printf("Employee Name: %s", **(*p+1)->name);
+                                      ^~
+                                      ->
+..\main.c:29:36: error: '*((struct employee **)p + 4u)' is a pointer; did you mean to use '->'?
+  printf("Employee id: %d", **(*p+1)->id);
+                                    ^~
+                                    ->
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:43:05 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:28:36: error: '*((struct employee **)p + 4u)' is a pointer; did you mean to use '->'?
+  printf("Employee Name: %s",*(*p+1)->name);
+                                    ^~
+                                    ->
+..\main.c:29:34: error: '*((struct employee **)p + 4u)' is a pointer; did you mean to use '->'?
+  printf("Employee id: %d",*(*p+1)->id);
+                                  ^~
+                                  ->
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:43:48 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:28:36: error: '*((struct employee **)p + 4u)' is a pointer; did you mean to use '->'?
+  printf("Employee Name: %s",*(*p+1)->name);
+                                    ^~
+                                    ->
+..\main.c:29:34: error: '*((struct employee **)p + 4u)' is a pointer; did you mean to use '->'?
+  printf("Employee id: %d",*(*p+1)->id);
+                                  ^~
+                                  ->
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:44:22 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:28:36: error: '*((struct employee **)p + 4u)' is a pointer; did you mean to use '->'?
+  printf("Employee Name: %s",*(*p+1)->name);
+                                    ^~
+                                    ->
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:44:39 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:45:19 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:26: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct employee arr[3]={&a,&b,&c};
+                          ^
+..\main.c:24:26: note: (near initialization for 'arr[0].name[0]')
+..\main.c:24:29: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct employee arr[3]={&a,&b,&c};
+                             ^
+..\main.c:24:29: note: (near initialization for 'arr[0].name[1]')
+..\main.c:24:32: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct employee arr[3]={&a,&b,&c};
+                                ^
+..\main.c:24:32: note: (near initialization for 'arr[0].name[2]')
+..\main.c:24:25: warning: missing braces around initializer [-Wmissing-braces]
+  struct employee arr[3]={&a,&b,&c};
+                         ^
+..\main.c:24:25: note: (near initialization for 'arr')
+..\main.c:26:26: error: invalid initializer
+  struct employee *(p[3])=&arr ;
+                          ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:45:48 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:26: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct employee arr[3]={&a,&b,&c};
+                          ^
+..\main.c:24:26: note: (near initialization for 'arr[0].name[0]')
+..\main.c:24:29: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct employee arr[3]={&a,&b,&c};
+                             ^
+..\main.c:24:29: note: (near initialization for 'arr[0].name[1]')
+..\main.c:24:32: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct employee arr[3]={&a,&b,&c};
+                                ^
+..\main.c:24:32: note: (near initialization for 'arr[0].name[2]')
+..\main.c:24:25: warning: missing braces around initializer [-Wmissing-braces]
+  struct employee arr[3]={&a,&b,&c};
+                         ^
+..\main.c:24:25: note: (near initialization for 'arr')
+..\main.c:26:23: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct employee *(p)=&arr ;
+                       ^
+..\main.c:28:37: error: invalid type argument of '->' (have 'struct employee')
+  printf("Employee Name: %s",(*(p+1))->name);
+                                     ^~
+..\main.c:29:37: error: invalid type argument of '->' (have 'struct employee')
+  printf("\nEmployee id: %d",(*(p+1))->id);
+                                     ^~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:46:06 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:26: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct employee arr[3]={&a,&b,&c};
+                          ^
+..\main.c:24:26: note: (near initialization for 'arr[0].name[0]')
+..\main.c:24:29: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct employee arr[3]={&a,&b,&c};
+                             ^
+..\main.c:24:29: note: (near initialization for 'arr[0].name[1]')
+..\main.c:24:32: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct employee arr[3]={&a,&b,&c};
+                                ^
+..\main.c:24:32: note: (near initialization for 'arr[0].name[2]')
+..\main.c:24:25: warning: missing braces around initializer [-Wmissing-braces]
+  struct employee arr[3]={&a,&b,&c};
+                         ^
+..\main.c:24:25: note: (near initialization for 'arr')
+..\main.c:26:23: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct employee *(p)=&arr ;
+                       ^
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:47:06 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:26:23: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct employee *(p)=&arr ;
+                       ^
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:47:49 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:26:23: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct employee *(p)=&arr ;
+                       ^
+..\main.c:28:33: error: invalid operands to binary + (have 'struct employee' and 'int')
+  printf("Employee Name: %s",((*p+1))->name);
+                               ~~^
+..\main.c:29:33: error: invalid operands to binary + (have 'struct employee' and 'int')
+  printf("\nEmployee id: %d",((*p+1))->id);
+                               ~~^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:48:10 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:26:23: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct employee *(p)=&arr ;
+                       ^
+..\main.c:28:34: error: invalid operands to binary + (have 'struct employee' and 'int')
+  printf("Employee Name: %s",(*(*p+1))->name);
+                                ~~^
+..\main.c:29:34: error: invalid operands to binary + (have 'struct employee' and 'int')
+  printf("\nEmployee id: %d",(*(*p+1))->id);
+                                ~~^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:48:23 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:26:24: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct employee *(*p)=&arr ;
+                        ^
+..\main.c:28:38: error: invalid type argument of '->' (have 'struct employee')
+  printf("Employee Name: %s",(*(*p+1))->name);
+                                      ^~
+..\main.c:29:38: error: invalid type argument of '->' (have 'struct employee')
+  printf("\nEmployee id: %d",(*(*p+1))->id);
+                                      ^~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:48:34 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:26:27: error: invalid initializer
+  struct employee *(*p[3])=&arr ;
+                           ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+13:48:59 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5

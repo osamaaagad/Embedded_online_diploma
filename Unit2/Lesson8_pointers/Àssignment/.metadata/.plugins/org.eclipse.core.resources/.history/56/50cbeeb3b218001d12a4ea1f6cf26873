@@ -1,0 +1,25 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 10, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+
+	int m;
+	int* ab;
+
+	m=29;
+
+	printf("Address of m : %x",&m);
+	printf("\nValue of m : %d",m);
+
+
+
+	return 0;
+}

@@ -1,0 +1,33 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 10, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main ()
+{
+
+	int x,i;
+	int a[15];
+
+	printf("Input the number of elements to store in the array (max 15) : ");
+	fflush(stdout);
+	scanf("%d",&x);
+
+	printf("Input %d number of elements in the array : \n",x);
+	fflush(stdin); fflush(stdout);
+
+	for(i=0;i<x;i++)
+	{
+		printf("element-%d: \n",i+1);
+		fflush(stdin); fflush(stdout);
+		scanf("%d",&a[i]);
+	}
+
+
+
+}

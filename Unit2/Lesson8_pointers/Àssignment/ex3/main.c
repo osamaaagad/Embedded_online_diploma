@@ -1,0 +1,35 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 10, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+
+	char str[100];
+	char* p;
+	int i;
+
+	printf("Input a string: "); fflush(stdout);
+	gets(str);
+	printf("\nReverse of the string is: "); fflush(stdout);
+
+	i=strlen(str);
+	p=&str[i-1];
+
+	while(i>0)
+	{
+
+		printf("%c",*p);
+		p--;
+		i--;
+
+	}
+return 0;
+}

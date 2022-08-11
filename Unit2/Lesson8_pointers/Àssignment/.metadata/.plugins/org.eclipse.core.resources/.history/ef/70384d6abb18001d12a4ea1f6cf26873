@@ -1,0 +1,30 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 10, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+//	char a[27];
+	char 'A';
+	char* p;
+int x;
+
+p=&a[0];
+
+
+
+	for(x=0;x<26;x++){
+//		p=&a[x];
+		*p=x+'A';
+		printf("%c",(char)*p);
+		p++;
+	}
+
+	return 0;
+}

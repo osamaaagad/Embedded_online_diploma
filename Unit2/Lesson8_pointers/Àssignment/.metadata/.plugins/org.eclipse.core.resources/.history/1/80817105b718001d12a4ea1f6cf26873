@@ -1,0 +1,26 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 10, 2022
+ *      Author: osama
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+	char* p;
+int x;
+
+x='A';
+
+printf("%c",x);
+//p=&x;
+//	for(*p=x;*p<='z';p++){
+//
+//		printf("%c\t",*p);
+//	}
+
+	return 0;
+}
